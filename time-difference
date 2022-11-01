@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int h1, h2, m1, m2, t1, t2, td, h, m;
+    cout<<"Input the 1st hour data"<<endl;
+    cin>>h1;
+    cout<<"Input the 1st minute data"<<endl;
+    cin>>m1;
+    cout<<"Input the 2nd hour data"<<endl;
+    cin>>h2;
+    cout<<"Input the 2nd minute data"<<endl;
+    cin>>m2;
+    
+    t1=h1*60+m1;
+    t2=h2*60+m2;
+    
+    td=t2-t1;
+    cout<<"The difference between the two times is "<<td<<" minutes";
+}

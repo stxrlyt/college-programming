@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float d, v, t;
+    cout<<"Enter the velocity then distance"<<endl;
+    cin>>v>>d;
+    
+    t=d/v;
+    cout<<t;
+}
